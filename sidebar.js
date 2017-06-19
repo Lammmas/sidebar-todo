@@ -57,6 +57,9 @@ function display(items) {
 }
 
 function add() {
+	// We don't want to create multiple input fields
+	if ($('#create').length) return;
+
 	var content = $("#items");
 
 	var text = "<form id=\"create\"><input type=\"text\" placeholder=\"Item text\" id=\"new\" class=\"u-full-width\" /></form>";
