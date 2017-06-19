@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Sidebar Todo",
+	"description": "Minimalistic todo extension for your sidebar",
+	"version": "0.1",
+	"permissions": [],//["contextMenus"]
+	"sidebar_action": {
+		// Required
+		"default_icon": {
+			"16": "icons/16.png",
+			"48": "icons/48.png",
+			"128": "icons/128.png"
+		},
+		// Optional; shown in tooltip
+		"default_title": "Todo",
+		// Required
+		"default_panel": "sidebar.html"
+	}
+}
